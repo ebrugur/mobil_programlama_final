@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#A5D8E9"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="activies.RegisterActivity">
+
+    <TextView
+        android:id="@+id/editTextSignUp"
+        android:layout_width="359dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="SIGN UP"
+        android:textColor="#471B18"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_editTextFirstName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:textColor="#471B18"
+            android:textColorHint="#471B18"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/register_editTextLastName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:textColor="#471B18"
+            android:textColorHint="#471B18"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/register_editTextEmail"
+        android:layout_width="377dp"
+        android:layout_height="65dp"
+        android:hint="E-mail Address"
+        android:inputType="textEmailAddress"
+        android:textColor="#471B18"
+        android:textColorHint="#471B18"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/register_editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#471B18"
+        android:textColorHint="#471B18"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/register_buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A5D8E9"
+        android:text="SIGN UP"
+        android:textColor="#471B18"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewOr"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="OR"
+        android:textColor="#471B18"
+        android:textColorHint="#471B18"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/register_buttonLogin"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#A5D8E9"
+        android:text="LOG IN"
+        android:textColor="#471B18"
+        android:textColorHint="#471B18"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp" />
+</LinearLayout>

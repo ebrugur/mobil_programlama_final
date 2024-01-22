@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "651332765961",
+    "project_id": "mobil-programlama-final-1b1d5",
+    "storage_bucket": "mobil-programlama-final-1b1d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651332765961:android:50768c5aa03b58e3e2ebd8",
+        "android_client_info": {
+          "package_name": "com.example.mobil_programlama_final"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbrSwnR4XE1rgYUH9Dzf6klUN8dgooAVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
